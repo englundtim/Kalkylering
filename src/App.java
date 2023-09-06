@@ -30,6 +30,11 @@ public class App {
 
         kvot=tal6/tal3;
         System.out.println(tal6+"/"+tal3+"="+kvot);
+
+        double modulo = tal5%tal6;
+        System.out.println(tal5+"%"+tal6+"="+modulo);
+        modulo = 12%4;
+        System.out.println("12%4="+modulo);
     
     }
 }
